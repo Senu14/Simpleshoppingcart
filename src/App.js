@@ -6,7 +6,7 @@ import useShoppingCart from "./Hooks/useShoppingCart";
 
 function App() {
 
-  const { increaseCartQuantity, returnAmount} = useShoppingCart();
+  const { increaseCartQuantity, deleteItem, returnAmount} = useShoppingCart();
 
   const url = "https://dummyjson.com/products?limit=12";
 
